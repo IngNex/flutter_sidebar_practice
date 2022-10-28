@@ -1,4 +1,4 @@
-import 'package:SidebarScrolling/sidebar/CollapsingNavigatorState.dart';
+import 'package:SidebarScrolling/common/CollapsingNavigatorState.dart';
 import 'package:flutter/material.dart';
 
 void main() {

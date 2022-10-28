@@ -7,6 +7,10 @@ class NavigationModel {
   NavigationModel({required this.title, required this.icon});
 }
 
-List<NavigationModel> navigators = [
+List<NavigationModel> navigationItems = [
   NavigationModel(title: 'Dashboard', icon: Icons.insert_chart),
+  NavigationModel(title: 'Errors', icon: Icons.error),
+  NavigationModel(title: 'Search', icon: Icons.search),
+  NavigationModel(title: 'Notification', icon: Icons.notification_important),
+  NavigationModel(title: 'Settings', icon: Icons.settings),
 ];
